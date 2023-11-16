@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  text-decoration: underline;
+}
+.profile-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: #0b0909;
+  color: aliceblue;
+}
+img {
+  width: 80px;
+  height: 80px;
+}
+.profile-card img {
+  max-width: 100%;
+}
+
+.repository-list {
+  border: 1px solid #0b0909;
+  padding: 16px;
+}
+
+.repository-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.repository-list li {
+  margin-bottom: 8px;
+}
